@@ -17,7 +17,7 @@
 					let html = "<img style='height: 300px;' src='"+result.image+"' />";
 					html += "<h3>"+result.title+"</h3>";
 					html += "<p>" + result.author +"</p>"
-					html += "<div id='download_mp3'>";
+					html += "<div id='download_mp4'>";
 					for (var i in result.videos) {
 						html += "<p><a class='download-btn' href='" + result.videos[i].url + "'>Download MP4 (" + result.videos[i].quality + ")</a></p>";
 					}
