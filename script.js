@@ -21,6 +21,9 @@
 					for (var i in result.videos) {
 						html += "<p><a class='download-btn' href='" + result.videos[i].url + "'>Download MP4 (" + result.videos[i].quality + ")</a></p>";
 					}
+					for (var i in result.audios) {
+						html += "<p><a class='download-btn' href='" + result.audios[i].url + "'>Download MP3 (128K)</a></p>";
+					}
 					html += "</div>";
 					document.getElementById("info").innerHTML = html;
 				} else {
